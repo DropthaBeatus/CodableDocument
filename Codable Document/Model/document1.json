@@ -1,0 +1,112 @@
+{
+	"uuid" : "afcd34567fe54a21",
+    "dates" :
+    {
+        "created" : "2019-02-18 11:11:15.001",
+        "updated" : "2019-04-11 17:27:23.024"
+    },
+	"title" : "Example Document",
+	"summary" : "This is an example document.",
+    "metadata" : {
+        "topic" : "codable protocol",
+        "field" : "software engineering"
+    },
+	"authors" :
+	[
+		{
+			"name" : "Dale Musser",
+			"contribution" : "Created JSON data example.",
+			"contacts" : 
+			[
+				{
+				"method" : "email",
+				"label" : "work",
+				"address" : "musserda@missouri.edu"
+				},
+				{
+				"method" : "email",
+				"label" : "personal",
+				"address" : "dalemusser@gmail.com"
+				},
+				{
+				"method" : "phone",
+				"label" : "cell",
+				"number" : "415-279-4040"
+				}
+			]
+		},
+		{
+			"name" : "Sally Smith",
+			"contribution" : "Reviewed JSON data example.",
+			"contacts" : 
+			[
+				{
+				"method" : "email",
+				"label" : "personal",
+				"address" : "sallysmith@mymail.com"
+				},
+				{
+				"method" : "phone",
+				"label" : "home",
+				"number" : "555-999-2222"
+				}
+			]
+		}
+	],
+	"copyright" : {
+		"owner"  : "Dale Musser",
+		"start-year" : 2018,
+		"end-year" : 2019,
+		"license" : "MIT License"
+	},
+	"entities" : 
+	[
+		{
+			"type" : "header",
+			"label" : "This is a label for the header.",
+			"properties" : 
+			{
+				"size" : 2
+			},
+			"content" : 
+			{
+				"content-type" : "text/plain",
+				"content-encoding" : "ascii",
+				"data" : "Header Example 1"
+			}
+		},
+		{
+			"type" : "paragraph",
+			"content" : 
+			{
+				"content-type" : "text/plain",
+				"content-encoding" : "utf-8",
+				"data" : "This is an example paragraph."
+			}
+		},
+		{
+			"type" : "image",
+			"label" : "Example image 1",
+			"properties" : 
+			{
+				"width" : "400px"
+			},
+			"source" : 
+			{
+				"url" : "https://dalemusser.com/images/image1.jpg"
+			}
+		},
+		{
+			"type" : "image",
+			"label" : "Example image 2",
+			"properties" : 
+			{
+				"height" : "600px"
+			},
+			"source" : 
+			{
+				"url" : "https://dalemusser.com/images/image2.jpg"
+			}
+		}
+	]
+}
